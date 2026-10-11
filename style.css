@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #101827, #164e63);
+    color: white;
+}
+
+.atm-container {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.bank-icon {
+    font-size: 50px;
+}
+
+header h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+.atm-card {
+    padding: 25px;
+    background: white;
+    color: #172033;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.screen {
+    background: #123b35;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.screen-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.screen h2 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+#status {
+    font-size: 13px;
+    color: #a7f3d0;
+    overflow-wrap: anywhere;
+}
+
+.pin-section,
+.amount-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid #dbe3ec;
+    border-radius: 9px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin: 5px 0;
+
+    border: none;
+    border-radius: 9px;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    background: #087f5b;
+    color: white;
+}
+
+button:hover {
+    filter: brightness(0.92);
+}
+
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #38bdf8;
+    outline-offset: 3px;
+}
+
+#balanceBtn {
+    background: #2563eb;
+}
+
+#depositBtn {
+    background: #0d9488;
+}
+
+#withdrawBtn {
+    background: #ea580c;
+}
+
+.reset-btn {
+    background: #e2e8f0;
+    color: #172033;
+    margin-top: 20px;
+}
+
+#history {
+    padding-left: 25px;
+    text-align: left;
+    font-size: 13px;
+    overflow-wrap: anywhere;
+}
+
+#history li {
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    color: #cbd5e1;
+    font-size: 12px;
+    margin-top: 20px;
+}
